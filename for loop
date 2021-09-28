@@ -1,0 +1,21 @@
+li x1,1 #x1=3
+
+li x2,10
+
+LOOP:
+
+
+addi x3,x4,1 #adding 1 till it become equal
+
+addi x1,x1,1 #increment x1++
+
+
+bne x1,x2,LOOP
+
+
+addi x3,x4,1 #adding 1 till it become equal
+
+addi x1,x1,1 #increment x1++
+
+
+beq x1,x2,LOOP
